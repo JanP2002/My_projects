@@ -1,0 +1,146 @@
+\hypertarget{class_f_x_triangle}{}\doxysection{FXTriangle Class Reference}
+\label{class_f_x_triangle}\index{FXTriangle@{FXTriangle}}
+Inheritance diagram for FXTriangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_f_x_triangle}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries FXTriangle\+Event\+Handler}
+\item 
+class {\bfseries FXTriangle\+Scroll\+Handler}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_x_triangle_a75b531ad8fee1cb6d09e001fc12645ba}{FXTriangle}} (Array\+List$<$ \mbox{\hyperlink{class_f_x_ellipse}{FXEllipse}} $>$ circle\+List, Array\+List$<$ \mbox{\hyperlink{class_f_x_rectangle}{FXRectangle}} $>$ rect\+List, Array\+List$<$ \mbox{\hyperlink{class_f_x_triangle}{FXTriangle}} $>$ triangle\+List, double... points)
+\item 
+double \mbox{\hyperlink{class_f_x_triangle_a6baba81867509ea89b2d20513020781b}{get\+CenterX}} ()
+\item 
+double \mbox{\hyperlink{class_f_x_triangle_a9785cec1bc55cfc3ed8c0ae53a097791}{get\+CenterY}} ()
+\item 
+void \mbox{\hyperlink{class_f_x_triangle_ae2ad2987c9c68b4ff62130777c0e760b}{translate\+Center}} (double x, double y)
+\item 
+boolean \mbox{\hyperlink{class_f_x_triangle_a756e30ec925a81729b895d76750abf7f}{is\+Active}} ()
+\item 
+void \mbox{\hyperlink{class_f_x_triangle_a3971f4c25762cdb201777b821caf38d4}{set\+Active}} (boolean active)
+\item 
+boolean \mbox{\hyperlink{class_f_x_triangle_a9eef29d1d7a589b27ebb435f05de5825}{is\+Hit}} (double x, double y)
+\item 
+void \mbox{\hyperlink{class_f_x_triangle_a04f9399e85c8d596eca45c3f9c4c829b}{do\+Rotate}} (double angle)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa definiujaca trojkat 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_f_x_triangle_a75b531ad8fee1cb6d09e001fc12645ba}\label{class_f_x_triangle_a75b531ad8fee1cb6d09e001fc12645ba}} 
+\index{FXTriangle@{FXTriangle}!FXTriangle@{FXTriangle}}
+\index{FXTriangle@{FXTriangle}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{FXTriangle()}{FXTriangle()}}
+{\footnotesize\ttfamily FXTriangle.\+FXTriangle (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_ellipse}{FXEllipse}} $>$}]{circle\+List,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_rectangle}{FXRectangle}} $>$}]{rect\+List,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_triangle}{FXTriangle}} $>$}]{triangle\+List,  }\item[{double...}]{points }\end{DoxyParamCaption})}
+
+Konstruktor klasy \mbox{\hyperlink{class_f_x_triangle}{FXTriangle}} 
+\begin{DoxyParams}{Parameters}
+{\em circle\+List} & Lista okregow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+{\em rect\+List} & Lista prostokatow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+{\em triangle\+List} & Lista trojkatow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+{\em points} & Tablica wspolrzednych wierzcholkow trojkata \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_painter}{Painter}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_x_triangle_a04f9399e85c8d596eca45c3f9c4c829b}\label{class_f_x_triangle_a04f9399e85c8d596eca45c3f9c4c829b}} 
+\index{FXTriangle@{FXTriangle}!doRotate@{doRotate}}
+\index{doRotate@{doRotate}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{doRotate()}{doRotate()}}
+{\footnotesize\ttfamily void FXTriangle.\+do\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})}
+
+Klasa odpowiadajaca za obracanie trojkata 
+\begin{DoxyParams}{Parameters}
+{\em angle} & kat obrotu w stopniach \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_triangle_a6baba81867509ea89b2d20513020781b}\label{class_f_x_triangle_a6baba81867509ea89b2d20513020781b}} 
+\index{FXTriangle@{FXTriangle}!getCenterX@{getCenterX}}
+\index{getCenterX@{getCenterX}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{getCenterX()}{getCenterX()}}
+{\footnotesize\ttfamily double FXTriangle.\+get\+CenterX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca wspolrzedna x srodka trojkata \begin{DoxyReturn}{Returns}
+Wspolrzedna x srodka trojkata 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_triangle_a9785cec1bc55cfc3ed8c0ae53a097791}\label{class_f_x_triangle_a9785cec1bc55cfc3ed8c0ae53a097791}} 
+\index{FXTriangle@{FXTriangle}!getCenterY@{getCenterY}}
+\index{getCenterY@{getCenterY}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{getCenterY()}{getCenterY()}}
+{\footnotesize\ttfamily double FXTriangle.\+get\+CenterY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca wspolrzedna y srodka trojkata \begin{DoxyReturn}{Returns}
+Wspolrzedna y srodka trojkata 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_triangle_a756e30ec925a81729b895d76750abf7f}\label{class_f_x_triangle_a756e30ec925a81729b895d76750abf7f}} 
+\index{FXTriangle@{FXTriangle}!isActive@{isActive}}
+\index{isActive@{isActive}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean FXTriangle.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca informacje, czy prostokat jest aktywny \begin{DoxyReturn}{Returns}
+informacja czy prostokat jest aktywny 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_triangle_a9eef29d1d7a589b27ebb435f05de5825}\label{class_f_x_triangle_a9eef29d1d7a589b27ebb435f05de5825}} 
+\index{FXTriangle@{FXTriangle}!isHit@{isHit}}
+\index{isHit@{isHit}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{isHit()}{isHit()}}
+{\footnotesize\ttfamily boolean FXTriangle.\+is\+Hit (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+Metoda sprawdza czy najechalismy na figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & Wspolrzedna x punktu kliknietego \\
+\hline
+{\em y} & Wspolrzedna y punktu kliknietego \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacja czy kilkniety punkt znajduje sie wewnatrz, czy na zewnatrz trojkata 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_triangle_a3971f4c25762cdb201777b821caf38d4}\label{class_f_x_triangle_a3971f4c25762cdb201777b821caf38d4}} 
+\index{FXTriangle@{FXTriangle}!setActive@{setActive}}
+\index{setActive@{setActive}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void FXTriangle.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+Metoda sluzaca do ustawiania trojkata jak aktywnego, badz nieaktywnego 
+\begin{DoxyParams}{Parameters}
+{\em active} & informacja czy mamy ustawic trojkat jako aktywny -\/true, badz nieaktywny -\/false \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_triangle_ae2ad2987c9c68b4ff62130777c0e760b}\label{class_f_x_triangle_ae2ad2987c9c68b4ff62130777c0e760b}} 
+\index{FXTriangle@{FXTriangle}!translateCenter@{translateCenter}}
+\index{translateCenter@{translateCenter}!FXTriangle@{FXTriangle}}
+\doxysubsubsection{\texorpdfstring{translateCenter()}{translateCenter()}}
+{\footnotesize\ttfamily void FXTriangle.\+translate\+Center (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+Metoda przesuwajaca srodek trojkata 
+\begin{DoxyParams}{Parameters}
+{\em x} & wspolrzedna x o jako srodek trojkata ma byc przesuniety \\
+\hline
+{\em y} & wspolrzedna y o jako srodek trojkata ma byc przesuniety \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_f_x_triangle_8java}{FXTriangle.\+java}}\end{DoxyCompactItemize}

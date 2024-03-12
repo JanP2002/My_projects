@@ -1,0 +1,169 @@
+\hypertarget{class_f_x_rectangle}{}\doxysection{FXRectangle Class Reference}
+\label{class_f_x_rectangle}\index{FXRectangle@{FXRectangle}}
+Inheritance diagram for FXRectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_f_x_rectangle}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enum_f_x_rectangle_1_1_click_mode_enum}{Click\+Mode\+Enum}}
+\item 
+class {\bfseries FXRectangle\+Event\+Handler}
+\item 
+class {\bfseries FXRectangle\+Scroll\+Handler}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_x_rectangle_a324649ae879d5be6eda2a87d99c64fc0}{FXRectangle}} (double x, double y, double width, double height, Array\+List$<$ \mbox{\hyperlink{class_f_x_ellipse}{FXEllipse}} $>$ circle\+List, Array\+List$<$ \mbox{\hyperlink{class_f_x_rectangle}{FXRectangle}} $>$ rect\+List, Array\+List$<$ \mbox{\hyperlink{class_f_x_triangle}{FXTriangle}} $>$ triangle\+List)
+\item 
+boolean \mbox{\hyperlink{class_f_x_rectangle_ab00bd710c7681dbe9e3850117f618eba}{is\+Active}} ()
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_a46365161d0b1735a4875780971b4d0b7}{set\+Active}} (boolean active)
+\item 
+boolean \mbox{\hyperlink{class_f_x_rectangle_aa0701fe2989fd0ecbc6c3ea094353885}{is\+Hit}} (double x, double y)
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_a47a149369cbcd50b4cec68f20aaee216}{addX}} (double x)
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_adfef0d5d7ced845239046dda165f02a5}{addY}} (double y)
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_a5e1d6d28e2dc1d3b0d4463cda825c317}{add\+Width}} (double w)
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_af37dad86df8468c63d2f1d77cea968fd}{add\+Height}} (double h)
+\item 
+void \mbox{\hyperlink{class_f_x_rectangle_af1b9745916feaf5a41c198571a98f4be}{do\+Rotate}} (double angle)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa definiujaca prostokat 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_f_x_rectangle_a324649ae879d5be6eda2a87d99c64fc0}\label{class_f_x_rectangle_a324649ae879d5be6eda2a87d99c64fc0}} 
+\index{FXRectangle@{FXRectangle}!FXRectangle@{FXRectangle}}
+\index{FXRectangle@{FXRectangle}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{FXRectangle()}{FXRectangle()}}
+{\footnotesize\ttfamily FXRectangle.\+FXRectangle (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{width,  }\item[{double}]{height,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_ellipse}{FXEllipse}} $>$}]{circle\+List,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_rectangle}{FXRectangle}} $>$}]{rect\+List,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_f_x_triangle}{FXTriangle}} $>$}]{triangle\+List }\end{DoxyParamCaption})}
+
+Konstruktor klasy \mbox{\hyperlink{class_f_x_rectangle}{FXRectangle}} 
+\begin{DoxyParams}{Parameters}
+{\em x} & Wspolrzedna x lewego gornego rogu prostokata \\
+\hline
+{\em y} & Wspolrzedna y lewego gornego rogu prostokata \\
+\hline
+{\em width} & Szerokosc prostokata \\
+\hline
+{\em height} & Wysokosc prostokata \\
+\hline
+{\em circle\+List} & Lista okregow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+{\em rect\+List} & Lista prostokatow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+{\em triangle\+List} & Lista trojkatow na panelu (grupie) w klasie \mbox{\hyperlink{class_painter}{Painter}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_painter}{Painter}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_f_x_rectangle_af37dad86df8468c63d2f1d77cea968fd}\label{class_f_x_rectangle_af37dad86df8468c63d2f1d77cea968fd}} 
+\index{FXRectangle@{FXRectangle}!addHeight@{addHeight}}
+\index{addHeight@{addHeight}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{addHeight()}{addHeight()}}
+{\footnotesize\ttfamily void FXRectangle.\+add\+Height (\begin{DoxyParamCaption}\item[{double}]{h }\end{DoxyParamCaption})}
+
+Metoda zwieksza wysokosc prostokata 
+\begin{DoxyParams}{Parameters}
+{\em h} & wartosc o jaka chcemy zwiekszyc (jak ujemna to zmniejszyc) wysokosc prostokata \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_rectangle_a5e1d6d28e2dc1d3b0d4463cda825c317}\label{class_f_x_rectangle_a5e1d6d28e2dc1d3b0d4463cda825c317}} 
+\index{FXRectangle@{FXRectangle}!addWidth@{addWidth}}
+\index{addWidth@{addWidth}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{addWidth()}{addWidth()}}
+{\footnotesize\ttfamily void FXRectangle.\+add\+Width (\begin{DoxyParamCaption}\item[{double}]{w }\end{DoxyParamCaption})}
+
+Metoda zwieksza szerokosc prostokata 
+\begin{DoxyParams}{Parameters}
+{\em w} & wartosc o jaka chcemy zwiekszyc (jak ujemna to zmniejszyc) szerokosc prostokata \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_rectangle_a47a149369cbcd50b4cec68f20aaee216}\label{class_f_x_rectangle_a47a149369cbcd50b4cec68f20aaee216}} 
+\index{FXRectangle@{FXRectangle}!addX@{addX}}
+\index{addX@{addX}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{addX()}{addX()}}
+{\footnotesize\ttfamily void FXRectangle.\+addX (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})}
+
+Metoda przesuwa wspolrzedna x lewego gornego rogu prostokata 
+\begin{DoxyParams}{Parameters}
+{\em x} & wartosc o jako chcemy przesunac wspolrzedna x lewego gornego rogu prostokata w pikselach \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_rectangle_adfef0d5d7ced845239046dda165f02a5}\label{class_f_x_rectangle_adfef0d5d7ced845239046dda165f02a5}} 
+\index{FXRectangle@{FXRectangle}!addY@{addY}}
+\index{addY@{addY}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{addY()}{addY()}}
+{\footnotesize\ttfamily void FXRectangle.\+addY (\begin{DoxyParamCaption}\item[{double}]{y }\end{DoxyParamCaption})}
+
+Metoda przesuwa wspolrzedna y lewego gornego rogu prostokata 
+\begin{DoxyParams}{Parameters}
+{\em y} & wartosc o jako chcemy przesunac wspolrzedna y lewego gornego rogu prostokata w pikselach \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_rectangle_af1b9745916feaf5a41c198571a98f4be}\label{class_f_x_rectangle_af1b9745916feaf5a41c198571a98f4be}} 
+\index{FXRectangle@{FXRectangle}!doRotate@{doRotate}}
+\index{doRotate@{doRotate}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{doRotate()}{doRotate()}}
+{\footnotesize\ttfamily void FXRectangle.\+do\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})}
+
+Klasa odpowiadajaca za obracanie prostokata 
+\begin{DoxyParams}{Parameters}
+{\em angle} & kat obrotu w stopniach \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_f_x_rectangle_ab00bd710c7681dbe9e3850117f618eba}\label{class_f_x_rectangle_ab00bd710c7681dbe9e3850117f618eba}} 
+\index{FXRectangle@{FXRectangle}!isActive@{isActive}}
+\index{isActive@{isActive}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean FXRectangle.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca informacje, czy prostokat jest aktywny \begin{DoxyReturn}{Returns}
+informacja czy prostokat jest aktywny 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_rectangle_aa0701fe2989fd0ecbc6c3ea094353885}\label{class_f_x_rectangle_aa0701fe2989fd0ecbc6c3ea094353885}} 
+\index{FXRectangle@{FXRectangle}!isHit@{isHit}}
+\index{isHit@{isHit}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{isHit()}{isHit()}}
+{\footnotesize\ttfamily boolean FXRectangle.\+is\+Hit (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+Metoda sprawdza czy najechalismy na figure 
+\begin{DoxyParams}{Parameters}
+{\em x} & Wspolrzedna x punktu kliknietego \\
+\hline
+{\em y} & Wspolrzedna y punktu kliknietego \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacja czy kilkniety punkt znajduje sie wewnatrz, czy na zewnatrz prostokata 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_f_x_rectangle_a46365161d0b1735a4875780971b4d0b7}\label{class_f_x_rectangle_a46365161d0b1735a4875780971b4d0b7}} 
+\index{FXRectangle@{FXRectangle}!setActive@{setActive}}
+\index{setActive@{setActive}!FXRectangle@{FXRectangle}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void FXRectangle.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+Metoda sluzaca do ustawiania prostokata jak aktywnego, badz nieaktywnego 
+\begin{DoxyParams}{Parameters}
+{\em active} & informacja czy mamy ustawic prostokat jako aktywny -\/true, badz nieaktywny -\/false \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_f_x_rectangle_8java}{FXRectangle.\+java}}\end{DoxyCompactItemize}
