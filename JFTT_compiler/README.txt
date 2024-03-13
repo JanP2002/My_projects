@@ -1,38 +1,22 @@
-Jan Poręba 268446
+Project realized on Formal Languages and Translation Techniques 
+classes 2023/2024 conducted by PdD Maciej Gębala.
 
-Sposób wywołania kompilatora:
-python3 kompilator.py <nazwa pliku wejściowego> <nazwa pliku wyjściowego>
+Running:
+python3 kompilator.py <name of source file> <name of output file>
 
-Aby używać kompilatora należy doinstalować
-(wykonać następujące polecenia w terminalu Ubuntu):
+You must install:
+(you can run following commands in Ubuntu terminal):
 sudo apt update
 sudo apt install python3.11
 sudo apt install python3-pip
 pip3 install ply
 
-Kompilator testowany był na następujacych wersjach bibliotek:
+The compiler was tested on consecutive versions of librares:
 Python 3.11.5
 pip 23.3.1
 ply 3.11
-Wykorzystywane są również moduły:
+There were used also modules:
 enum, typing, sys, lexer, parser
 
-Pliki:
-----------------------
-kompilator.py
-lexer.py
-parser.py
-Register.py
-Program.py
-MemoryManager.py
-LabelGenerator.py
-Instructions.py
-NonTerminals/Command.py
-NonTerminals/Condition.py
-NonTerminals/Declarations.py
-NonTerminals/Identifier.py
-NonTerminals/Main.py
-NonTerminals/ProcCallParam.py
-NonTerminals/Pocedure.py
-NonTerminals/ProcHead.py
+
 
