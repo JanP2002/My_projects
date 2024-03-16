@@ -6,7 +6,7 @@ classes 2023/2024 conducted by PdD Maciej Gębala.
 python3 kompilator.py <name of source file> <name of output file>
 
 <h3>You must install:</h3>
-(you can run following commands in Ubuntu terminal):<b></br>
+(you can run following commands in Ubuntu terminal):</br>
 sudo apt update</br>
 sudo apt install python3.11</br>
 sudo apt install python3-pip</br>
