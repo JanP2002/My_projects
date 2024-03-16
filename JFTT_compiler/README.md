@@ -1,4 +1,4 @@
-<h1>Compiler of simple imperative language</h1>
+<h2>Compiler of simple imperative language</h2>
 Project realized on Formal Languages and Translation Techniques 
 classes 2023/2024 conducted by PdD Maciej Gębala.
 
