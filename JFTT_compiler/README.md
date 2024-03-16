@@ -1,10 +1,11 @@
+<h1>Compiler of simple imperative language</h1>
 Project realized on Formal Languages and Translation Techniques 
 classes 2023/2024 conducted by PdD Maciej Gębala.
 
-Running:
+<h3>Running:</h3>
 python3 kompilator.py <name of source file> <name of output file>
 
-You must install:
+<h3>You must install:</h3>
 (you can run following commands in Ubuntu terminal):
 sudo apt update
 sudo apt install python3.11
