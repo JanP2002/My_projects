@@ -10,7 +10,7 @@ python3 kompilator.py <name of source file> <name of output file>
 sudo apt update</br>
 sudo apt install python3.11</br>
 sudo apt install python3-pip</br>
-pip3 install ply</br>
+pip3 install ply<br></br>
 
 The compiler was tested on consecutive versions of librares:</br>
 Python 3.11.5</br>
