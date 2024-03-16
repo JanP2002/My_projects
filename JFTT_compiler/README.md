@@ -6,11 +6,11 @@ classes 2023/2024 conducted by PdD Maciej Gębala.
 python3 kompilator.py <name of source file> <name of output file>
 
 <h3>You must install:</h3>
-(you can run following commands in Ubuntu terminal):<br></br>
-sudo apt update<br></br>
-sudo apt install python3.11<br></br>
-sudo apt install python3-pip<br></br>
-pip3 install ply<br></br>
+(you can run following commands in Ubuntu terminal):<b></br>
+sudo apt update<b></br>
+sudo apt install python3.11<b></br>
+sudo apt install python3-pip<b></br>
+pip3 install ply<b></br>
 
 The compiler was tested on consecutive versions of librares:<br></br>
 Python 3.11.5<br></br>
