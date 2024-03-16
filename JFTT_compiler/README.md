@@ -7,16 +7,16 @@ python3 kompilator.py <name of source file> <name of output file>
 
 <h3>You must install:</h3>
 (you can run following commands in Ubuntu terminal):<b></br>
-sudo apt update<b></br>
-sudo apt install python3.11<b></br>
-sudo apt install python3-pip<b></br>
-pip3 install ply<b></br>
+sudo apt update</br>
+sudo apt install python3.11</br>
+sudo apt install python3-pip</br>
+pip3 install ply</br>
 
-The compiler was tested on consecutive versions of librares:<br></br>
-Python 3.11.5<br></br>
-pip 23.3.1<br></br>
-ply 3.11<br></br>
-There were used also modules:<br></br>
+The compiler was tested on consecutive versions of librares:</br>
+Python 3.11.5</br>
+pip 23.3.1</br>
+ply 3.11</br>
+There were used also modules:</br>
 enum, typing, sys, lexer, parser
 
 
